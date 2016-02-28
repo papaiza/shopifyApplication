@@ -99,7 +99,7 @@ public class Shopicircuit {
                 }
             }
         }
-        return "The optimal amount of items to take is " + amountTaken[n][M] + " at a price of " + optCost[n][M];
+        return "The optimal amount of items to take is " + amountTaken[n][M] + " at a price of $" + optCost[n][M];
     }
 
     /**
